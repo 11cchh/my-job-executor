@@ -1,0 +1,29 @@
+### 多环境配置
+spring:
+  profiles:
+    active: dev
+
+### 模块化配置
+---
+
+### 开发环境
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_data?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 19970210
+
+---
+
+### 测试环境
+spring:
+  profiles: test
+
+---
+
+### 生产环境
+
+spring:
+  profiles: prd

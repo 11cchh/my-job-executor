@@ -27,6 +27,13 @@
 
 	<dependencies>
 
+		<!-- bootstrap.yml 配置文件生效 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-context</artifactId>
+			<version>2.2.1.RELEASE</version>
+		</dependency>
+
 		<!-- starter-web：spring-webmvc + autoconfigure + logback + yaml + tomcat -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
