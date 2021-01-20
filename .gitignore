@@ -1,0 +1,5 @@
+/logs/
+/job-admin/target/
+/job-executor/target/
+/.idea/
+**/*.iml
